@@ -12,7 +12,7 @@ more in-depth explanation of the language.
 1. [Why Scala?](#why-scala)
 1. [Feature comparison](#feature-comparison)
 1. [Scala basics](#scala-basics)
-1. [Scala's type system](#scalas-system)
+1. [Scala's type system](#scalas-type-system)
 
 ## Why Scala?
 
@@ -38,6 +38,16 @@ code flexibility and safety, and Kotlin does that very well.
 Both of these languages are multi-paradigm, but Kotlin is more object-oriented than Scala, and Scala is more functional than Kotlin.
 Scala has a much more powerful type system, has built-in curried function syntax, and it's much easier to work with functional
 programming concepts in Scala than in Kotlin.
+
+A good example to show this are:
+
+- [Collections](#collections) - shown later in this article. You can reimplement an algorithm that replicates built-in bevahiour using
+  functional programming concepts in a concise way.
+- Curried functions - Scala has a lot of curried functions built into the core standard library, such as `foldLeft` and `foldRight`.
+  Kotlin can do this too, but its syntax is much more verbose and is going to be a lot more difficult to read since it is a callback
+  hell.
+- Ecosystem - Scala has a lot of libraries that are built around functional programming concepts, which integrate better with the language
+  itself than Kotlin does.
 
 ### Type system
 
@@ -417,6 +427,7 @@ following if you want to get better at Scala:
 - Dependent types
 - Implicit conversions
 - Contextual abstractions
+- Generic inner type parameters
 
 I want to thank the following people for helping me with Scala knowledge on the Scala Discord server:
 
