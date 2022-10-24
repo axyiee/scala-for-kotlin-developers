@@ -30,7 +30,7 @@ a JetBrains IDE to use it properly!
 
 While using Scala, you will find out that most of the time you don't need Java's stdlib directly, even though Scala has complete
 Java interoperability. In contrast, Kotlin's stdlib is very small, and you will need to use Java's stdlib directly most of the time,
-and almost everything is syntax sugar for Java's stdlib. That's not a big deal though, since the most important thing is providing 
+and almost everything is syntax sugar for Java's stdlib. That's not a big deal though, since the most important thing is providing
 code flexibility and safety, and Kotlin does that very well.
 
 ### Functional programming
@@ -41,7 +41,7 @@ programming concepts in Scala than in Kotlin.
 
 ### Type system
 
-Scala is pretty similar to Kotlin in terms the of type system, but it has the advantages of having intersection types (merging multiple
+Scala is pretty similar to Kotlin in terms of type system, but it has the advantages of having intersection types (merging multiple
 types into one, requiring all of them to be satisfied), union types (a type that can be one of the multiple types), algebraic data types
 (represented as enumerations similar to Rust's), a powerful type parameter (often referred as generics as well) variance system,
 opaque types, structural types, and more. Kotlin has a very powerful type system as well, but it's not as powerful as Scala's.
