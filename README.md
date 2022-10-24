@@ -39,7 +39,7 @@ Both of these languages are multi-paradigm, but Kotlin is more object-oriented t
 Scala has a much more powerful type system, has built-in curried function syntax, and it's much easier to work with functional
 programming concepts in Scala than in Kotlin.
 
-A good example to show this are:
+Some good examples to show this are:
 
 - [Collections](#collections) - shown later in this article. You can reimplement an algorithm that replicates built-in bevahiour using
   functional programming concepts in a concise way.
