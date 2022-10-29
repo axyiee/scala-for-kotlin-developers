@@ -13,6 +13,7 @@ more in-depth explanation of the language.
 1. [Feature comparison](#feature-comparison)
 1. [Scala basics](#scala-basics)
 1. [Scala's type system](#scalas-type-system)
+1. [Solid concepts](#solid-concepts)
 
 ## Why Scala?
 
@@ -233,9 +234,9 @@ class Person(val name: String) extends Human {
 }
 ```
 
-### Enumerations
+### Algebraic Data Types (ADT or enumerations)
 
-You can think of Scala enums as a mix of Kotlin and Rust concepts. They are defined using the `enum` keyword, followed by the
+You can think of Scala ADTs as a mix of Kotlin and Rust concepts. They are defined using the `enum` keyword, followed by the
 enum name, and the enum body. The enum body can be empty, or it can contain a list of enum values, separated by commas and preceded
 by the `case` keyword. The enum values can also have parameters, and they can be defined as `val` or `var` variables. The enum
 values can also have an individual constructor.
@@ -293,8 +294,7 @@ against a pattern, and it can be used to destructure a value or to match a value
 can be done by inserting the value reference (variable or expression) followed by the `match` keyword, then the pattern-matching
 body. The pattern-matching body can be defined using the `case` keyword, followed by the pattern, and the pattern body. The pattern
 body can be defined using the `=>` operator, followed by the pattern body. The pattern body can be a single expression, or a block
-of code. The pattern-matching body can also contain a default case, which is defined using the `case _` syntax. The pattern
-matching body can also contain a `yield` keyword, which is used to return a value from the pattern-matching body.
+of code. The pattern-matching body can also contain a default case, which is defined using the `case _` syntax.
 
 ```scala
 val x = 10
@@ -409,6 +409,12 @@ then List[B] is also a subtype of List[-A].
 
 We could talk more about Scala's type systems, but I think that's enough for now. You can learn more about Scala's type systems
 in the [Scala 3 documentation](https://docs.scala-lang.org/scala3/reference/new-types/type-parameters.html).
+
+## Solid concepts
+
+A really good thing about Scala is that it has a lot of great concepts and philosophies that you couldn't find in the majority
+of other programming languages. You can also think of implicit conversions, extractor objects, contextual abstractions and its
+advanced type system as a few of the concepts that Scala has.
 
 ## That's it!
 
