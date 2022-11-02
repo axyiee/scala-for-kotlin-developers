@@ -4,9 +4,6 @@ This article is a pretty basic introduction to Scala for Kotlin developers, addr
 features, alongside a comparison with their Kotlin counterparts. This will assume some familiarity with Kotlin, but not with
 Scala and this will be also updated over time to cover more features and use cases.
 
-I highly recommend reading the [official documentation](https://docs.scala-lang.org/scala3/book/introduction.html) for a
-more in-depth explanation of the language.
-
 ## Table of contents
 
 1. [Why Scala?](#why-scala)
@@ -14,6 +11,7 @@ more in-depth explanation of the language.
 1. [Scala basics](#scala-basics)
 1. [Scala's type system](#scalas-type-system)
 1. [Solid concepts](#solid-concepts)
+1. [..After reading this guide](#after-reading-this-guide)
 
 ## Why Scala?
 
@@ -416,6 +414,18 @@ A really good thing about Scala is that it has a lot of great concepts and philo
 of other programming languages. You can also think of implicit conversions, extractor objects, contextual abstractions and its
 advanced type system as a few of the concepts that Scala has.
 
+## After reading this guide
+
+If you want to go deeper into the Scala, I recommend reading the following videos, and/or documentation and books:
+
+- [Book: Scala 3](https://docs.scala-lang.org/scala3/book/introduction.html) - The official Scala 3 documentation
+- [Tutorial: Scala 3 Macros](https://docs.scala-lang.org/scala3/guides/macros/index.html) - The official Scala 3 macros documentation
+- [Book: Scala with Cats](https://www.scalawithcats.com/) - A book about functional programming in Scala with the Cats library
+- [Book: Cats](https://typelevel.org/cats/index.html) - The official Cats documentation
+- [Book: Cats Effect](https://typelevel.org/cats-effect/docs/getting-started) - The official Cats Effect (functional coroutines-like approach for Scala) documentation
+- [Presentation: Program as values](https://github.com/pslcorp/programs-as-values) - A presentation about the program as values concept
+- [Video: The Parallel typeclass in Cats by Jakub Kozłowski](https://www.youtube.com/watch?v=Tx5LdRCaDcY) - A video about the parallel typeclass in Cats
+
 ## That's it!
 
 That's it for this article. I hope you enjoyed it. If you have any questions, feel free to ask me or any other experienced
@@ -443,3 +453,5 @@ I want to thank the following people for helping me with Scala knowledge on the 
 - armanbilge
 - zygfryd
 - Lesser Spotted Bambi
+- jmie6
+- makingthematrix
